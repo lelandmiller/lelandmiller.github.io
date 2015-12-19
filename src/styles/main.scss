@@ -1,0 +1,126 @@
+@import 'bourbon/bourbon';
+// Check out some of the differences!
+//@import 'bitters/bitters';
+@import 'normalize';
+@import 'base';
+@import 'syntax';
+// Custom partials
+@import 'partials/header';
+@import 'partials/footer';
+//@import 'typography';
+
+$main-column-width: 900px;
+$side-bar-width: 200px;
+
+.profile-picture {
+  margin: 10px;
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  float: right;
+}
+ul.posts, dl.posts {
+  time {
+    background: $cyan;
+    color: $base3;
+  }
+}
+
+.post-header {
+    position: relative;
+    //border-bottom: 2px dotted $base2;
+    h1 {
+
+        //border: none;
+        display: inline-block;
+    }
+    time {
+        position: relative;
+        top: -2px;
+        left: 10px;
+
+        vertical-align: baseline;
+        padding: 0 1px;
+        text-decoration: underline;
+        color: $base3;
+        background-color: $cyan;
+        font-family: $monospace;
+    }
+}
+
+%main-column {
+  margin: 0 auto;
+  width: 100%;
+  max-width: $main-column-width;
+}
+a {
+  color: $blue;
+}
+a:visited {
+  color: $violet;
+}
+.highlighted {
+  background-color: $yellow;
+}
+body {
+  line-height: 1.4em;
+  background: $base3;
+  color: $base00;
+}
+
+div.content-row {
+  position: relative;
+  margin-bottom: 30px;
+  @extend %main-column;
+}
+main {
+  //border-left: 1px solid $base2;
+  margin-top: 90px;
+  h2 {
+    font-size: 1.7em;
+    font-family: monospace;
+    //color: $base01;
+    //text-indent: -27px;
+    border-bottom: 1px dotted $base2;
+    &:before {
+      //content: '\000BB';
+      content: '#';
+      color: $magenta;
+      //font-family: $monospace;
+      padding-right: 7px;
+    }
+  }
+  h1 {
+    font-size: 2em;
+    font-family: monospace;
+    //color: $base01;
+    //text-indent: -27px;
+    border-bottom: 2px dotted $base2;
+  }
+  .excerpt p {
+    font-size: .8em;
+    color: transparentize($base0, .1);
+    //font-style: italic;
+  }
+}
+
+aside {
+  padding: 5px;
+  width: 200px;
+  position: fixed;
+  top: 90px;
+  right: 0;
+  background-color: $base2;
+  //border-radius: 5px;
+  box-shadow: 2px 2px 1px 1px darken($base2, 5%);
+  .table-of-contents ul {
+
+  }
+}
+
+table.profiles {
+  margin: auto;
+  td {
+    padding: 10px;
+  }
+}

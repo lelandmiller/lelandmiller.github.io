@@ -1,0 +1,72 @@
+
+.header-wrapper {
+  @include background-image(linear-gradient(rgba($base2,1) ,rgba($base2,.9)));
+  height: 64px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+}
+
+header {
+  @extend %main-column;
+  height: 64px;
+  position: relative;
+  h1 {
+    //Textshadow
+    color: $base1;
+    font-family: $helvetica;
+    font-size: 64px;
+    line-height: 64px;
+    margin: 0;
+    @include inline-block;
+  }
+  h1 a, h1 a:hover, h1 a:visited {
+    color: $base1;
+  }
+
+  h1:hover {
+    font-size: 70px;
+    margin-top: -1px;
+  }
+
+  nav {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    font-family: $helvetica;
+    a {
+      //box-shadow: 3px 3px 2px 0 shade($magenta, 60%);
+      margin: 2px;
+      display: inline-block;
+      text-decoration: none;
+      background-color: $magenta;
+      color: white;
+      padding: 2px;
+      @include transform(rotate(2deg));
+    }
+    a:nth-child(even) {
+      @include transform(rotate(-2deg));
+    }
+
+    a:visited {
+      color: $magenta;
+      color: white;
+    }
+    a:hover {	
+     // font-style: bold;
+     padding: 3px;
+     margin: 1px;
+    //  color: $blue;
+    }
+
+    a:active {
+      background-color: shade($magenta, 20%);
+    }
+  }
+
+}
+
+

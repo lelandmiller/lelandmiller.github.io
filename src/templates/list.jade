@@ -1,0 +1,19 @@
+extends master
+block content
+    h1.title=title
+    != contents
+    dl.posts
+        each item in collections[showCollection]
+            dt
+                a(href= '/' + item.path)= item.title
+                if (showDates)
+                    time.pull-right.post-list= moment(item.date).format('dddd')
+            dd.excerpt
+                !=item.excerpt
+    //
+        ul.posts
+            each item in collections[showCollection]
+                li
+                    a(href= '/' + item.path)= item.title
+                    time.pull-right.post-list= item.date
+                    p!= item.excerpt

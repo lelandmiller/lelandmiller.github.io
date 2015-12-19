@@ -1,0 +1,34 @@
+doctype html
+html(lang='en')
+    head
+      meta(name="viewport",content="width=device-width, initial-scale=1.0")
+      title= 'Leland Miller: ' + data.title
+      link(rel='stylesheet',href='/main.css')
+
+      link(href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic',rel='stylesheet',type='text/css')
+      link(href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600italic,600,700,700italic,900,300italic,300,200italic,200',rel='stylesheet',type='text/css')
+    body
+      #wrapper
+        .header-wrapper
+          header
+            h1.title
+              a(href='/') LM
+            nav
+              //a(href='/') home
+              //a(href='/articles') articles
+              //a(href='/projects') projects
+              //a(href='/music') music
+              //a(href='/resume') resume
+
+        .content-row
+          main
+            block content
+
+        .footer-wrapper
+          footer
+            .circle
+            .circle
+            .circle
+            .message Leland Miller
+              br
+              a(href='http://github.com/lelandmiller') github.com

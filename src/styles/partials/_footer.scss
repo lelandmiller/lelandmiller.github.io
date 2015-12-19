@@ -1,0 +1,42 @@
+
+.footer-wrapper {
+  background-color: $base2;
+}
+
+footer {
+
+  
+  height: 40px;
+  position: relative;
+  text-align: right;
+  //border-top: 2px solid $base2;
+  @extend %main-column;
+
+  .message {
+    font-family: $monospace;
+    position: absolute;
+    line-height: 20px;
+    bottom: 0;
+    right: 0;
+  }
+
+  .circle {
+    background-color: $blue;
+    @include linear-gradient(lighten($blue, 10%), $blue);
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+  }
+  .circle:nth-child(2) {
+    opacity: .5;
+    left: 36px;
+  }
+  .circle:nth-child(3) {
+    opacity: .25;
+    left: 72px;
+  }
+
+}

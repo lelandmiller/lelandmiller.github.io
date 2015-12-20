@@ -27,6 +27,11 @@ Projects
 - SlugCam is a solar-powered wireless smart camera system. I have been involved as a researcher on this project. <http://www.slugcam.com>, <https://github.com/SlugCam>
 - TextScape is a language I designed and for a comparative programming languages class at UCSC. I implemented an interpreter in Haskell and a simple IDE that is served by a Ruby WEBrick server. <https://github.com/lelandmiller/TextScape>
 
+Publications
+------------
+
+- Miller, L.; Abas, K.; Obraczka, K., "SCmesh: Solar-Powered Wireless Smart Camera Mesh Network," in Computer Communication and Networks (ICCCN), 2015 24th International Conference on Computer Communications and Networks, pp.1-8, 3-6 Aug. 2015 ([IEEE Xplore](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7288462&isnumber=7288342))
+
 Music
 -----
 

@@ -68,6 +68,10 @@ body {
   color: $base00;
 }
 
+li {
+    margin-bottom: .7em;
+}
+
 div.content-row {
   position: relative;
   margin-bottom: 30px;
@@ -76,6 +80,7 @@ div.content-row {
 main {
   //border-left: 1px solid $base2;
   margin-top: 90px;
+  padding: 10px;
   h2 {
     font-size: 1.7em;
     font-family: monospace;

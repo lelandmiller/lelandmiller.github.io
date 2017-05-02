@@ -26,6 +26,7 @@ Projects
 
 - SlugCam is a solar-powered wireless smart camera system. I have been involved as a researcher on this project. <http://www.slugcam.com>, <https://github.com/SlugCam>
 - TextScape is a language I designed and for a comparative programming languages class at UCSC. I implemented an interpreter in Haskell and a simple IDE that is served by a Ruby WEBrick server. <https://github.com/lelandmiller/TextScape>
+- micro-signals is a signals library for TypeScript/JavaScript written using ES2015 Collections. <https://www.npmjs.com/package/micro-signals>, <https://github.com/lelandmiller/micro-signals>
 
 Publications
 ------------

@@ -31,10 +31,12 @@ Projects
 Publications
 ------------
 
-- Miller, L.; Abas, K.; Obraczka, K., "SCmesh: Solar-Powered Wireless Smart Camera Mesh Network," in Computer Communication and Networks (ICCCN), 2015 24th International Conference on Computer Communications and Networks, pp.1-8, 3-6 Aug. 2015 ([IEEE Xplore](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7288462&isnumber=7288342))
+- Miller, L., Abas, K., & Obraczka, K. (2015, August). Scmesh: Solar-powered wireless smart camera mesh network. In Computer Communication and Networks (ICCCN), 2015 24th International Conference on (pp. 1-8). IEEE. ([IEEE Xplore](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7288462&isnumber=7288342))
+
+- Abas, K., Obraczka, K., & Miller, L. (2018). Solar-Powered, Wireless Smart Camera Network: An IoT Solution for Outdoor Video Monitoring. Computer Communications. ([Elsevier](https://www.sciencedirect.com/science/article/pii/S0140366417305236))
 
 Music
 -----
 
-- The Initialized is a project I started in 2009. There are a few albums out there, the project is no longer active after doing some recording and playing a few shows. <https://theinitialized.bandcamp.com/>
+- The Initialized is a project I started in 2009. You can listen through several media outlets. <https://theinitialized.bandcamp.com/>
 

@@ -38,5 +38,5 @@ Publications
 Music
 -----
 
-- The Initialized is a project I started in 2009. You can listen through several media outlets. <https://theinitialized.bandcamp.com/>
+- The Initialized is a project I started in 2009. You can listen through several media outlets. <http://www.theinitialized.com/> [Spotify](https://open.spotify.com/artist/0i7PtrnacAFH8FV1eQjMou)
 
